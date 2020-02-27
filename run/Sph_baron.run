@@ -1,8 +1,6 @@
 option solver baron;
-option baron_options 'epsa = 0.05 epsr = 0.05';
-option baron_options 'maxtime = 72000 maxiter = -1 deltaterm = 1 deltat = 600';
-option baron_options 'prfreq = 100000 filter barstats keepsol wantsol= 4 prtimefreq = 60';
-option baron_options 'threads = 8 nlpsol = 9';
+option baron_options 'epsa = 0.05 epsr = 0.05 maxtime = 600 maxiter = -1 deltaterm = 1 deltat = 600 prfreq = 50 filter barstats keepsol wantsol= 4 threads = 8 nlpsol = 9';
+
 solve;
 
 

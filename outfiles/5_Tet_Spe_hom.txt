@@ -1,0 +1,113 @@
+BARON 19.12.7 (2019.12.07): epsa = 0.05
+epsr = 0.05
+maxtime = 300
+maxiter = -1
+deltaterm = 1
+deltat = 600
+prfreq = 50
+filter
+barstats
+keepsol
+wantsol= 4
+Unknown keyword "prtimefreq"
+Unknown keyword ""
+Unknown keyword "60"
+threads = 8
+nlpsol = 9
+exit value 1
+<BREAK>
+ampl: include baron.run;
+BARON 19.12.7 (2019.12.07): epsa = 0.05
+epsr = 0.05
+maxtime = 300
+maxiter = -1
+deltaterm = 1
+deltat = 600
+prfreq = 50
+filter
+barstats
+keepsol
+wantsol= 4
+threads = 8
+nlpsol = 9
+BARON 19.12.7 (2019.12.07): 25755 iterations, CPU time limit reached.
+Objective 0.8660254189
+Retaining scratch directory "C:\Users\Z230\AppData\Local\Temp\baron_tmp5984".
+Objective lower bound = 0, upper bound = 0.866025418851
+barstatus = 4, modelstatus = 4
+max nodes in memory = 12142
+optimum found at node -1
+Baron run time (excluding setup) = 298.32 seconds
+solve_result_num = 402
+solve_result = limit
+tolerance = 0.0001
+
+card(figures) = 5
+
+coords [*,*,1]
+:      1         2         3         4       :=
+1   19.7113   20.2887   20.5993   20.5536
+2   19.2946   19.8106   19.7113   20.2887
+3   20.2887   19.7113   20.5894   19.8282
+4   19.7113   20.2887   19.7527   20.5422
+5   20.2887   19.7358   19.7113   19.2935
+
+ [*,*,2]
+:      1         2         3         4       :=
+1   19.7113   20.2887   19.3753   20.1041
+2   20.3107   19.5047   19.7113   20.2887
+3   20.2887   19.7113   19.367    19.4919
+4   19.7113   20.2887   20.6973   20.1221
+5   20.2887   20.7001   19.7113   20.3269
+
+ [*,*,3]
+:      1         2         3         4       :=
+1   19.7113   20.2887   20.0254   19.3422
+2   20.3948   20.6847   19.7113   20.2887
+3   20.2887   19.7113   20.0436   20.6799
+4   19.7113   20.2887   19.5499   19.3358
+5   20.2887   19.5641   19.7113   20.3796
+;
+
+R = 0.866025
+
+distances [*,1,*]
+:   1   2   3   4    :=
+1   0   1   0   1
+2   0   1   0   1
+3   0   1   0   1
+4   0   1   0   1
+5   0   1   0   1
+
+ [*,2,*]
+:   1   2   3   4    :=
+1   0   0   1   1
+2   0   0   1   1
+3   0   0   1   1
+4   0   0   1   1
+5   0   0   1   1
+
+ [*,3,*]
+:   1   2   3   4    :=
+1   1   0   0   1
+2   1   0   0   1
+3   1   0   0   1
+4   1   0   0   1
+5   1   0   0   1
+
+ [*,4,*]
+:   1   2   3   4    :=
+1   1   1   1   0
+2   1   1   1   0
+3   1   1   1   0
+4   1   1   1   0
+5   1   1   1   0
+;
+
+_ampl_time = 0.0468003
+_total_solve_time = 298.43
+_ampl_elapsed_time = 64.147
+_ampl_user_time = 0
+
+Total time elapsed: $298.43.
+_total_solve_time = 298.43
