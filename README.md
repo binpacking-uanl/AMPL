@@ -3,11 +3,10 @@ Models in AMPL\BARON mathematical modeling language
 
 This is a repository of the vertices approach modeling using BARON Software from AMPL
 
-# Files prefixes: 
+# Files prefixes: number_InsType_ContType_<hom[_reg]/het/mix>.kind
 
 File names follow a pattern to easy identify them....
 
-	# number_InsType_ContType_<hom[_reg]/het/mix>.kind
 
 	number -> Number of objects in the instance: 2~4 digits number prefix
 
