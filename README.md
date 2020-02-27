@@ -48,7 +48,7 @@ Folders
 	stats ->
 	
 
-Bin Packing team:
+Bin Packing team: binpacking.unal@gmail.com
 		
 		Phd. Igor Litvinchev
 		Aned Esquerra Arguelles
