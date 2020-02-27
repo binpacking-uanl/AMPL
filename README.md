@@ -17,8 +17,7 @@ Files prefixes:
 
 	het -> Objects to be containd have different size length.
 
-	kind -> Depends on the information placed in the file, some of the posible kinds are:
-		
+	kind -> Depends on the information placed in the file, some of the posible kinds are:	
 		bar -> BARON Software extended model.
 		csv -> CSV file with information.
 		dat -> Instance definition. 
