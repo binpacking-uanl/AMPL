@@ -1,0 +1,76 @@
+BARON 19.7.13 (2019.07.13): epsa = 0.05
+epsr = 0.05
+prfreq = 50
+filter 
+maxtime = 60
+maxiter = -1
+Barstats 
+keepsol 
+wantsol= 4
+threads = 12
+BARON 19.7.13 (2019.07.13): 2677 iterations, CPU time limit reached.
+Objective 1.003343379
+Retaining scratch directory "C:\Users\IGORLI~1\AppData\Local\Temp\baron_tmp12844".
+Objective lower bound = 0, upper bound = 1.0033433793
+barstatus = 4, modelstatus = 4
+max nodes in memory = 995
+optimum found at node 5
+Baron run time (excluding setup) = 59.78 seconds
+solve_result_num = 402
+solve_result = limit
+tolerance = 0.0001
+
+card(figures) = 5
+
+coords [*,*,1]
+:      1         2         3       :=
+1   49.9976   49.2905   49.0317
+2   50.0034   50.9693   50.2622
+3   49.2905   49.9976   50.2565
+4   50.2055   49.9988   49.2549
+5   50.0026   50.9533   50.2093
+
+ [*,*,2]
+:      1         2         3       :=
+1   49.9976   49.2905   50.2565
+2   49.9998   49.741    49.0338
+3   49.2905   49.9976   49.0317
+4   50.9821   50.0037   50.6719
+5   50.0029   50.313    50.9813
+;
+
+R = 1.00334
+
+distances [*,1,*]
+:   1   2   3    :=
+1   0   1   0
+2   0   1   0
+3   0   1   0
+4   0   1   0
+5   0   1   0
+
+ [*,2,*]
+:   1   2   3    :=
+1   0   0   1
+2   0   0   1
+3   0   0   1
+4   0   0   1
+5   0   0   1
+
+ [*,3,*]
+:   1   2   3    :=
+1   1   0   0
+2   1   0   0
+3   1   0   0
+4   1   0   0
+5   1   0   0
+;
+
+_ampl_time = 0.03125
+_total_solve_time = 59.8281
+_ampl_elapsed_time = 97.766
+_ampl_user_time = 0
+
+Total time elapsed: $ 59.83.
+_total_solve_time = 59.8281
+
