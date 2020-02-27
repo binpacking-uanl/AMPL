@@ -1,11 +1,11 @@
 data;
 
 
-param nfigures := 10;
+param nfigures := 30;
 param npoints := 4;
 param ndimensions := 3;
 
-param tolerance := 0.0001;
+param tolerance := 1e-4;
 
 
 

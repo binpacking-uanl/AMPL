@@ -1,0 +1,37 @@
+option solver baron;
+option baron_options 'epsa = 0.5 epsr = 0.8  prfreq = 50 filter maxtime = 120 maxiter = -1 Barstats keepsol wantsol= 4 threads= 4 nlpsol= 1';
+
+repeat while tolerance > 1e-6 {
+   solve;
+   if solve_result = "infeasible" then {
+      display {i in 1.._ncons: _con[i].slack < -1e-6} (_conname[i], _con[i].slack);
+      display {j in 1.._nvars: _var[j].slack < -1e-6} (_varname[j], _var[j].slack);
+
+      # Status info
+      display solve_result_num, solve_result, tolerance;
+
+      # Data variables
+      display card(figures), coords, R;
+      display vp; 
+      display lamda, alpha;
+      break;
+   }
+
+   # Status info
+   display solve_result_num, solve_result, tolerance;
+
+   # Data variables
+   display card(figures), coords, R, height;
+   
+   display distances;
+    
+   # Time stats
+   display _ampl_time, _ampl_elapsed_time, _ampl_user_time;   
+
+   printf "Total time elapsed: $%6.2f.\n", _total_solve_time;
+
+   let tolerance := tolerance /10;
+};
+
+quit;
+
