@@ -49,13 +49,13 @@ Folders
 			* The model in AMPL modeling language definition. (.MOD format file)			
 			* The current instance data definition. (.DAT format file)
 			
-	outfiles ->  
+	outfiles ->  AMPL output information in a plain txt format.
 	
 	raw models -> Entire bundle of files to run the model in AMPL IDE.
 
-	run files ->
+	run files ->  
 
-	stats ->
+	stats -> Stats on instances (Ongoing project for later improvements)
 	
 # Contact data
 Bin Packing team: binpacking.unal@gmail.com
