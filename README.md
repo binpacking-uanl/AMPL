@@ -3,7 +3,7 @@ Models in AMPL\BARON mathematical modeling language
 
 This is a repository of the vertices approach modeling using BARON Software from AMPL
 
-# Files prefixes: number_InsType_ContType_<hom[_reg]/het/mix>.kind
+# Files prefixes: number_InsType_ContType_details.kind
 
 File names follow a pattern to easy identify them....
 
@@ -16,11 +16,13 @@ File names follow a pattern to easy identify them....
 	ContType -> Object container type: 3 chars.
 		Posible values -> Cil(Cilinder), Sph(Sphere), Cir(Circular), CiS(Circular Section)
 
-	hom -> All objects to be contained have the same size length.
-
-	het -> Objects to be containd have different size length.
-	
-	mix -> Object to be contained are different in size and shape.
+	details -> A group of prefixes detailing file contents.
+		hom -> All objects to be contained have the same size length.
+		het -> Objects to be containd have different size length.
+		mix -> Object to be contained are different in size and shape.
+		reg -> Regular objects.
+		coords -> Cartesian coordinates.
+		tol -> Tolerances.
 
 	kind -> Depends on the information placed in the file, some of the posible kinds are:	
 			* bar -> BARON Software extended model.
