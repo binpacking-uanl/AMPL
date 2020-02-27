@@ -7,13 +7,15 @@ This is a repository of the vertices approach modeling using BARON Software from
 
 File names follow a pattern to easy identify them....
 
-	number_InsType_ContType_<hom[_reg]/het>.kind
+	# number_InsType_ContType_<hom[_reg]/het/mix>.kind
 
-	number -> Number of objects in the instance. A 2~4 digits number
+	number -> Number of objects in the instance: 2~4 digits number prefix
 
-	InstType -> Type of objects to containt, posible values (Triangles, Rectangles, Squares, Pentagons).
+	InstType -> Type of objects to containt: 3 chars prefix
+		Posible values -> Tri(Triangles), Rec(Rectangles), Squ(Squares), Pen(Pentagons)
 	 
-	ContType -> Object container type, posible values (Circular sections, Circles, Recatngles)
+	ContType -> Object container type: 3 chars.
+		Posible values -> Cil(Cilinder), Sph(Sphere), Cir(Circular), CiS(Circular Section)
 
 	hom -> All objects to be contained have the same size length.
 
@@ -34,6 +36,10 @@ Folders
 	datasets -> This folder contains two CSV files for each combination of container type and object type contained.				
 			* One CSVfile with some significative tolerance variations in [1e-6, 1e-1].
 			* One CSVfile with Cartesian coordinates.
+			
+			Examples: 
+				05_Tet_Cil_hom_coords.csv -> Cartesian coordinates of 5 regular tetrahedra packed in a cylindrical container.
+				05_Tet_Cil_hom_tol.csv -> Results of packing experimentation with 5 regular tetrahedra in a cylindrical container.
 			
 	instances -> Data files containing instance definition based on adjacency matrices.
 
