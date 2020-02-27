@@ -27,13 +27,11 @@ Files prefixes:
 
 Folders
 
-	datasets -> This folder contains two CSV files for each combination of container type and object type contained.
-				
+	datasets -> This folder contains two CSV files for each combination of container type and object type contained.				
 			* One CSVfile with some significative tolerance variations in [1e-6, 1e-1].
 			* One CSVfile with Cartesian coordinates.
 
-	models -> This folder contains a subfolder for each combination of (model/instance) 
-			  analised with the current files: 			
+	models -> This folder contains a subfolder for each combination of (container type/contained type).			
 			* A fully expanded model in BARON Software language. (.BAR format file)			
 			* The model in AMPL modeling language definition. (.MOD format file)			
 			* The current instance data definition. (.DAT format file)
