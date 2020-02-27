@@ -7,7 +7,6 @@ Files prefixes:
 
 	number_InsType_ContType_<hom/het>.kind
 
-
 	number -> the amount of objects in the instance. A 2~4 digits number
 
 	InstType -> The type of object to containt. Posible values (Triangles, Rectangles, Squares, Pentagons).
@@ -39,3 +38,11 @@ Folders
 	run ->
 
 	stats ->
+	
+
+Bin Packing team:
+		
+		Igor Litvinchev
+		Aned Esquerra Arguelles
+		Alberto Martínez Noa
+		Rogelio de Jesus Díaz Corrales
