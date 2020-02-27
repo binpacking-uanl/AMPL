@@ -1,0 +1,76 @@
+BARON 19.12.7 (2019.12.07): epsa = 0.8
+epsr = 0.8
+maxtime = 300
+maxiter = -1
+prfreq = 50
+filter
+barstats
+keepsol
+wantsol= 4
+threads = 4
+nlpsol = 1
+BARON 19.12.7 (2019.12.07): 16601 iterations, CPU time limit reached.
+Objective 1.993716871
+Retaining scratch directory "C:\Users\dell\AppData\Local\Temp\baron_tmp6352".
+Objective lower bound = 0.367676114333, upper bound = 1.99371687142
+barstatus = 4, modelstatus = 4
+max nodes in memory = 556
+optimum found at node 1
+Baron run time (excluding setup) = 295.28 seconds
+solve_result_num = 402
+solve_result = limit
+tolerance = 0.0001
+
+card(figures) = 5
+
+coords [*,*,1]
+:      1          2          3        :=
+1   0.871535   0.882486   0.011037
+2   0.87148    1.74293    0.88243
+3   1.02997    1.99372    1.74293
+4   0          0          0.866025
+5   0.010951   0          0.871449
+
+ [*,*,2]
+:      1          2          3        :=
+1   0.490536   1.49048    0.99999
+2   0.477557   0.968043   1.4775
+3   0.266832   0          0.968042
+4   0.993717   1.99372    1.49372
+5   0.99994    0          0.490486
+;
+
+R = 1.99372
+
+distances [*,1,*]
+:   1   2   3    :=
+1   0   1   0
+2   0   1   0
+3   0   1   0
+4   0   1   0
+5   0   1   0
+
+ [*,2,*]
+:   1   2   3    :=
+1   0   0   1
+2   0   0   1
+3   0   0   1
+4   0   0   1
+5   0   0   1
+
+ [*,3,*]
+:   1   2   3    :=
+1   1   0   0
+2   1   0   0
+3   1   0   0
+4   1   0   0
+5   1   0   0
+;
+
+_ampl_time = 0
+_total_solve_time = 295.312
+_ampl_elapsed_time = 10.968
+_ampl_user_time = 0
+
+Total time elapsed: $295.31.
+_total_solve_time = 295.312
