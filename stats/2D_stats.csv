@@ -1,0 +1,31 @@
+Objetos;;Contenedor;
+Figura;Cant. (u);Tipo;Dim. (r)
+Triangulos;5;Secc. circular;1.99372
+Triangulos;10;Secc. circular;2.8688
+Triangulos;15;Secc. circular;3.29
+Triangulos;20;Secc. circular;3.84
+Triangulos;5;Circulo;1.00334
+Triangulos;10;Circulo;1.43058
+Triangulos;15;Circulo;1.73
+Triangulos;20;Circulo;2.11
+Rectangulos;5;Secc. circular;4.1234
+Rectangulos;7;Secc. circular;4.8584
+Rectangulos;9;Secc. circular;5.7457
+Rectangulos;10;Secc. circular;6.0946
+Rectangulos;5;Circulo;2.18
+Rectangulos;7;Circulo;2.57
+Rectangulos;9;Circulo;3.15
+Cuadrados;5;Secc. circular;3.1558
+Cuadrados;7;Secc. circular;3.5401
+Cuadrados;9;Secc. circular;4.1859
+Cuadrados;10;Secc. circular;4.4276
+Cuadrados;5;Circulo;1.59
+Cuadrados;7;Circulo;1.81
+Cuadrados;9;Circulo;2.16
+Cuadrados;10;Circulo;3.03
+Pentágonos;5;Secc. circular;4.04
+Pentágonos;6;Secc. circular;4.41
+Pentágonos;8;Secc. circular;4.91
+Pentágonos;5;Circulo;2.04
+Pentágonos;6;Circulo;2.28
+Pentágonos;8;Circulo;5.23

@@ -1,0 +1,10 @@
+Objetos;;;;Contenedor;;Modelo;;;KPIs;
+Figura;Tipo;Dim. (l);Cant. (u);Tipo;Dim. (r,h);Variables;Restricciones;Iteraciones;t(s);Gap(%)
+Tetraedros;Regular;1;5;Esferas;(0.866025, NA);191;180;25755;1.69;*
+Tetraedros;Regular;1;10;Esferas;(0.985493, NA);685;706;26836;65.63;
+Tetraedros;Regular;1;15;Esferas;(1.01160749, NA);1515;1546;16798;39.64;
+Tetraedros;Regular;1;20;Esferas;(1.72409, NA);2670;2711;10323;202.94;
+Tetraedros;Regular;1;5;Cilindro ;(0.818022, 0.816497);192;200;3525;42.64;*
+Tetraedros;Regular;1;10;Cilindro ;(1.03092, 0.856305);;;;15.68;
+Tetraedros;Regular;1;15;Cilindro ;;;;;;
+Tetraedros;Regular;1;20;Cilindro ;;;;;;
