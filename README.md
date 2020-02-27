@@ -43,6 +43,6 @@ Folders
 Bin Packing team:
 		
 		Igor Litvinchev
-		Aned Esquerra Arguelles
+		Aned Esquerra Arguelles - anedesquerra@gmail.com
 		Alberto Martínez Noa
 		Rogelio de Jesus Díaz Corrales
