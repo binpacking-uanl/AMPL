@@ -15,7 +15,9 @@ InstType -> The type of object to containt. Posible values (Triangles, Rectangle
 ContType -> Th object container type. Posible values (Circular sections, Circles, Recatngles)
 
 hom -> All objects to be contained have the same size length.
+
 het -> Objects to be containd have different size length.
+
 kind -> Depends on data in the file:
 	
 	bar -> BARON Software extended model.
