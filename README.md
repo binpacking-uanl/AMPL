@@ -16,7 +16,6 @@ Files prefixes:
 	hom -> All objects to be contained have the same size length.
 
 	het -> Objects to be containd have different size length.
-			*
 	
 	mix -> Object to be contained are different in size and shape.
 
@@ -27,6 +26,7 @@ Files prefixes:
 			* mod -> Model definition of the model in AMPL modeling language.
 			* run -> Script to run the model in AMPL or NEOS Server.
 
+# Repository structure
 Folders
 
 	datasets -> This folder contains two CSV files for each combination of container type and object type contained.				
