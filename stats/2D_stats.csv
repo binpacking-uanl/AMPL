@@ -1,30 +1,29 @@
-Figura, Cant. (u), Tipo, Dim. (r)
-Triangulos, 5, Secc. circular, 1.99372
-Triangulos, 10, Secc. circular, 2.8688
-Triangulos, 15, Secc. circular, 3.29
-Triangulos, 20, Secc. circular, 3.84
-Triangulos, 5, Circulo, 1.00334
-Triangulos, 10, Circulo, 1.43058
-Triangulos, 15, Circulo, 1.73
-Triangulos, 20, Circulo, 2.11
-Rectangulos, 5, Secc. circular, 4.1234
-Rectangulos, 7, Secc. circular, 4.8584
-Rectangulos, 9, Secc. circular, 5.7457
-Rectangulos, 10, Secc. circular, 6.0946
-Rectangulos, 5, Circulo, 2.18
-Rectangulos, 7, Circulo, 2.57
-Rectangulos, 9, Circulo, 3.15
-Cuadrados, 5, Secc. circular, 3.1558
-Cuadrados, 7, Secc. circular, 3.5401
-Cuadrados, 9, Secc. circular, 4.1859
-Cuadrados, 10, Secc. circular, 4.4276
-Cuadrados, 5, Circulo, 1.59
-Cuadrados, 7, Circulo, 1.81
-Cuadrados, 9, Circulo, 2.16
-Cuadrados, 10, Circulo, 3.03
-Pentágonos, 5, Secc. circular, 4.04
-Pentágonos, 6, Secc. circular, 4.41
-Pentágonos, 8, Secc. circular, 4.91
-Pentágonos, 5, Circulo, 2.04
-Pentágonos, 6, Circulo, 2.28
-Pentágonos, 8, Circulo, 5.23
+Figura,Tipo,Dim. (l),Cant. (u),Tipo,Dim. (r),Variables,Restricciones
+Triangulos,Regular,1,5,Secc. circular,1.99372,131,140
+Triangulos,Regular,1,10,Secc. circular,2.8688,551,555
+Triangulos,Regular,1,15,Secc. circular,3.29434,1141,1245
+Triangulos,Regular,1,20,Secc. circular,3.84182,2021,2210
+Triangulos,Regular,1,25,Secc. circular,4.47599,3151,3450
+Triangulos,Regular,1,30,Secc. circular,5.02724,4531,4965
+Triangulos,Regular,1,5,Circulo,1.00334,131,140
+Triangulos,Regular,1,10,Circulo,1.43058,511,555
+Triangulos,Regular,1,15,Circulo,1.72766,1141,1245
+Triangulos,Regular,1,20,Circulo,2.11487,2021,2210
+Rectangulos,Regular,1,5,Secc. circular,4.1234,161,180
+Rectangulos,Regular,1,7,Secc. circular,4.85837,309,343
+Rectangulos,Regular,1,9,Secc. circular,5.7457,505,558
+Rectangulos,Regular,1,10,Secc. circular,6.09458,621,685
+Rectangulos,Regular,1,5,Circulo,2.18,161,180
+Rectangulos,Regular,1,7,Circulo,2.57,309,343
+Rectangulos,Regular,1,9,Circulo,3.15,505,558
+Cuadrados,Regular,1,5,Secc. circular,3.15583,161,180
+Cuadrados,Regular,1,7,Secc. circular,3.54008,309,343
+Cuadrados,Regular,1,10,Secc. circular,4.42759,621,685
+Cuadrados,Regular,1,5,Circulo,1.64835,161,180
+Cuadrados,Regular,1,7,Circulo,2.25909,309,343
+Cuadrados,Regular,1,9,Circulo,2.9646,505,558
+Pentágonos,Regular,1,5,Secc. circular,4.04051,191,215
+Pentágonos,Regular,1,6,Secc. circular,4.40792,271,303
+Pentágonos,Regular,1,8,Secc. circular,4.91089,473,524
+Pentágonos,Regular,1,5,Circulo,2.0354,191,215
+Pentágonos,Regular,1,6,Circulo,2.31735,271,303
