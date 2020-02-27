@@ -1,4 +1,3 @@
-Objetos;;;;Contenedor;;Modelo;;;KPIs;
 Figura;Tipo;Dim. (l);Cant. (u);Tipo;Dim. (r,h);Variables;Restricciones;Iteraciones;t(s);Gap(%)
 Tetraedros;Regular;1;5;Esferas;(0.866025, NA);191;180;25755;1.69;*
 Tetraedros;Regular;1;10;Esferas;(0.985493, NA);685;706;26836;65.63;
