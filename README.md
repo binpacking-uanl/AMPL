@@ -16,6 +16,9 @@ Files prefixes:
 	hom -> All objects to be contained have the same size length.
 
 	het -> Objects to be containd have different size length.
+			*
+	
+	mix -> Object to be contained are different in size and shape.
 
 	kind -> Depends on the information placed in the file, some of the posible kinds are:	
 			* bar -> BARON Software extended model.
@@ -46,7 +49,7 @@ Folders
 
 Bin Packing team: binpacking.unal@gmail.com
 		
-		Phd. Igor Litvinchev
-		Aned Esquerra Arguelles
-		Alberto Martínez Noa
-		Rogelio de Jesus Díaz Corrales
+		Phd. Igor Litvinchev - igorlitvinchev@gmail.com
+		Aned Esquerra Arguelles - anedesquerra@gmail.com
+		Alberto Martínez Noa - mnalbert1409@gmail.com
+		Rogelio de Jesus Díaz Corrales - dicoro993@gmail.com
