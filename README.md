@@ -1,5 +1,5 @@
 # AMPL
-Models in AMPL\BARON modeling language
+Models in AMPL\BARON mathematical modeling language
 
 This is a repository of the vertices approach modeling using BARON Software from AMPL
 
@@ -33,8 +33,7 @@ Folders
 			* One CSVfile with Cartesian coordinates.
 
 	models -> This folder contains a subfolder for each combination of (model/instance) 
-			  analised with the current files: 
-			
+			  analised with the current files: 			
 			* A fully expanded model in BARON Software language. (.BAR format file)			
 			* The model in AMPL modeling language definition. (.MOD format file)			
 			* The current instance data definition. (.DAT format file)
