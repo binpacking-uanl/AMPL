@@ -29,9 +29,16 @@ Folders
 
 	datasets -> 
 
-	models ->
+	models -> This folder contains a subfolder with the current files: 
+			
+			* A fully expanded model in BARON Software language.
+			
+			* The model in AMPL modeling language definition.
+			
+			* The current instance dataa definition.
+			
 	
-	outfiles ->
+	outfiles ->  
 
 	raw -> 
 
