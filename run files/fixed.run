@@ -1,0 +1,19 @@
+option solver baron;
+option baron_options 'epsa = 0.5 epsr = 0.8  prfreq = 50 filter maxtime = 120 maxiter = -1 Barstats keepsol wantsol= 4 threads= 4 nlpsol= 1';
+
+solve;
+
+# Status info
+display solve_result_num, solve_result,tolerance;
+
+# Data variables
+display card(figures),coords, height, R;
+
+display distances;
+ 
+# Time stats
+display _ampl_time, _ampl_elapsed_time, _ampl_user_time;   
+
+printf "Total time elapsed: $%6.2f.\n", _total_solve_time;
+
+quit;
