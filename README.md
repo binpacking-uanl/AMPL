@@ -29,8 +29,7 @@ Folders
 
 	datasets -> 
 
-	models -> This folder contains a subfolder for each combination of (model/instance) 
-			  analised with the current files: 
+	models -> This folder contains a subfolder for each combination of (model/instance).
 			
 			* A fully expanded model in BARON Software language. (.BAR format file)			
 			* The model in AMPL modeling language definition. (.MOD format file)			
