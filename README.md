@@ -1,23 +1,23 @@
 # AMPL
-Models in AMPL modeling language
+Models in AMPL\BARON modeling language
 
-In this repository different tested models can be found, there are several folders with experimentation related outputs and codes of AMPL modeling language.
+This is a repository of the vertices approach modeling using BARON Software from AMPL
 
 Files prefixes: 
 
 	number_InsType_ContType_<hom/het>.kind
 
-	number -> the amount of objects in the instance. A 2~4 digits number
+	number -> Number of objects in the instance. A 2~4 digits number
 
-	InstType -> The type of object to containt. Posible values (Triangles, Rectangles, Squares, Pentagons).
+	InstType -> Type of objects to containt, posible values (Triangles, Rectangles, Squares, Pentagons).
 	 
-	ContType -> Th object container type. Posible values (Circular sections, Circles, Recatngles)
+	ContType -> Object container type, posible values (Circular sections, Circles, Recatngles)
 
 	hom -> All objects to be contained have the same size length.
 
 	het -> Objects to be containd have different size length.
 
-	kind -> Depends on data in the file:
+	kind -> Depends on the information placed in the file, some of the posible kinds are:
 		
 		bar -> BARON Software extended model.
 		csv -> CSV file with information.
@@ -27,7 +27,10 @@ Files prefixes:
 
 Folders
 
-	datasets -> 
+	datasets -> This folder contains two CSV files for each combination of container type and object type contained.
+				
+			* One CSVfile with some significative tolerance variations in [1e-6, 1e-1].
+			* One CSVfile with Cartesian coordinates.
 
 	models -> This folder contains a subfolder for each combination of (model/instance) 
 			  analised with the current files: 
@@ -39,7 +42,6 @@ Folders
 	
 	outfiles ->  
 
-	raw -> 
 
 	run ->
 
@@ -48,7 +50,7 @@ Folders
 
 Bin Packing team:
 		
-		Igor Litvinchev
-		Aned Esquerra Arguelles - anedesquerra@gmail.com
+		Phd. Igor Litvinchev
+		Aned Esquerra Arguelles
 		Alberto Martínez Noa
 		Rogelio de Jesus Díaz Corrales
