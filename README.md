@@ -50,6 +50,8 @@ Folders
 			* The current instance data definition. (.DAT format file)
 			
 	outfiles ->  
+	
+	raw models -> Entire bundle of files to run the model in AMPL IDE.
 
 	run files ->
 
