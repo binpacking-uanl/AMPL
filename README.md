@@ -34,15 +34,13 @@ File names follow a pattern to easy identify them....
 # Repository structure
 Folders
 
-<<<<<<< HEAD
 	datasets -> 
 
 	models -> This folder contains a subfolder for each combination of (model/instance).
-=======
+	
 	datasets -> This folder contains two CSV files for each combination of container type and object type contained.				
 			* One CSVfile with some significative tolerance variations in [1e-6, 1e-1].
 			* One CSVfile with Cartesian coordinates.
->>>>>>> 2b4a6d387ea4a3c09ed99037068803e8ac9b2982
 			
 			Examples: 
 				05_Tet_Cil_hom_coords.csv = Cartesian coordinates of 5 regular tetrahedra packed in a cylindrical container.
