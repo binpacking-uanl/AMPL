@@ -68,3 +68,10 @@ Bin Packing team: binpacking.unal@gmail.com
 		Aned Esquerra Arguelles - anedesquerra@gmail.com
 		Alberto Martínez Noa - mnalbert1409@gmail.com
 		Rogelio de Jesus Díaz Corrales - dicoro993@gmail.com
+		Tatiana Romanova - tarom27@yahoo.com
+		Socorro Rangel - socorro.rangel@unesp.br
+		Antonio Marmolejo - marmolejo.antonio@hotmail.com
+		Daniel Mosquera - jodamos15@gmail.com
+		Lucero Ozuna - luceroozuna@gmail.com
+
+
