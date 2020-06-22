@@ -1,0 +1,92 @@
+
+epsr = 0.8
+maxtime = 15000
+maxiter = -1
+prfreq = 50
+filter 
+barstats 
+keepsol 
+wantsol= 4
+threads=4
+nlpsol = 1
+BARON 19.3.22 (2019.03.22): 348938 iterations, CPU time limit reached.
+Objective 2.03539668
+Retaining scratch directory "/var/lib/condor/execute/dir_52499/baron_tmp52506".
+Objective lower bound = 0, upper bound = 2.03539668019
+barstatus = 4, modelstatus = 4
+max nodes in memory = 42020
+optimum found at node 39935
+Baron run time (excluding setup) = 15000 seconds
+solve_result_num = 402
+solve_result = limit
+tolerance = 0.0001
+
+card(figures) = 5
+
+coords [*,*,1]
+:      1         2         3         4         5       :=
+1   49.1071   50.0941   50.2464   49.3535   48.6494
+2   49.2587   49.1064   49.9993   50.7034   50.2457
+3   48.0938   49.0731   49.5684   48.8954   47.984
+4   50.3083   51.2953   51.7531   51.049    50.1561
+5   50.6822   51.6692   51.8215   50.9286   50.2245
+
+ [*,*,2]
+:      1         2         3         4         5       :=
+1   48.1709   48.3315   49.3198   49.7701   49.06
+2   51.8599   50.8716   50.4214   51.1314   52.0205
+3   50.7136   50.9164   50.0477   49.3081   49.7197
+4   49.6943   49.8549   48.9659   48.2558   48.7059
+5   49.7593   49.9199   50.9083   51.3585   50.6484
+;
+
+R = 2.0354
+
+distances [1,*,*]
+:   1   2   3   4   5    :=
+1   0   1   0   0   0
+2   0   0   1   0   0
+3   0   0   0   1   0
+4   0   0   0   0   1
+5   1   0   0   0   0
+
+ [2,*,*]
+:   1   2   3   4   5    :=
+1   0   1   0   0   0
+2   0   0   1   0   0
+3   0   0   0   1   0
+4   0   0   0   0   1
+5   1   0   0   0   0
+
+ [3,*,*]
+:   1   2   3   4   5    :=
+1   0   1   0   0   0
+2   0   0   1   0   0
+3   0   0   0   1   0
+4   0   0   0   0   1
+5   1   0   0   0   0
+
+ [4,*,*]
+:   1   2   3   4   5    :=
+1   0   1   0   0   0
+2   0   0   1   0   0
+3   0   0   0   1   0
+4   0   0   0   0   1
+5   1   0   0   0   0
+
+ [5,*,*]
+:   1   2   3   4   5    :=
+1   0   1   0   0   0
+2   0   0   1   0   0
+3   0   0   0   1   0
+4   0   0   0   0   1
+5   1   0   0   0   0
+;
+
+_ampl_time = 0.014368
+_total_solve_time = 15000.1
+_ampl_elapsed_time = 0.006199
+_ampl_user_time = 0.007663
+
+Total time elapsed: $15000.07.
+_total_solve_time = 15000.1
