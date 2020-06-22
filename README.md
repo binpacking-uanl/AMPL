@@ -66,7 +66,13 @@ Folders
 # Contact data
 Bin Packing team: binpacking.unal@gmail.com
 		
-		Phd. Igor Litvinchev - igorlitvinchev@gmail.com
+		
 		Aned Esquerra Arguelles - anedesquerra@gmail.com
 		Alberto Martínez Noa - mnalbert1409@gmail.com
 		Rogelio de Jesus Díaz Corrales - dicoro993@gmail.com
+		Ph.D. Igor Litvinchev - igorlitvinchev@gmail.com
+		Ph.D. Tatiana Romanova  - tarom27@yahoo.com
+		Ph.D. Socorro Rangel - socorro.rangel@unesp.br 
+		Ph.D. Antonio Marmolejo - marmolejo.antonio@hotmail.com 
+		Ph.D. Daniel Mosquera Artamonov - jodamos15@gmail.com 
+		Ph.D. Lucero Ozuna - luceroozuna@gmail.com
