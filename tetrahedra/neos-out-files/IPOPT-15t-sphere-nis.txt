@@ -1,0 +1,195 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   User     : anedesquerra
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+Job 8349834 has finished.
+Load Avg: ( 1.0 , 1.01 , 1.05 )
+Create temp directory /var/lib/condor/execute/dir_5608/neos-5615
+File exists
+You are using the solver ipopt.
+Checking ampl.mod for ipopt_options...
+Checking ampl.com for ipopt_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-3.neos-server.org
+
+Presolve eliminates 0 constraints and 1560 variables.
+Adjusted problem:
+1546 variables:
+	1336 nonlinear variables
+	210 linear variables
+1515 constraints; 12120 nonzeros
+	1095 nonlinear constraints
+	420 linear constraints
+	300 equality constraints
+	1215 inequality constraints
+1 linear objective; 1 nonzero.
+
+Ipopt 3.12.13: max_iter=10000
+acceptable_tol=1e-3
+tol=1e-5
+max_cpu_time=28800
+print_level=1
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+ 
+Ipopt 3.12.13: Optimal Solution Found
+
+suffix ipopt_zU_out OUT;
+suffix ipopt_zL_out OUT;
+solve_result_num = 0
+solve_result = solved
+tolerance = 0.01
+
+card(figures) = 15
+
+coords [*,*,1]
+:       1         2         3         4       :=
+1    20.7092   20.1825   23.4439   23.0238
+2    20.2088   22.1992   21.8298   24.1834
+3    18.5593   20.0182   21.3712   22.3052
+4    22.6665   20.116    23.9903   22.8279
+5    22.3771   19.8298   19.5808   18.527
+6    20.2176   21.2066   18.766    22.6418
+7    19.9451   20.9668   17.1293   19.7128
+8    20.6041   19.8945   18.2778   16.9699
+9    19.0808   21.694    19.7931   17.781
+10   20.0678   21.5941   23.972    22.4638
+11   19.3422   20.0825   20.7872   23.116
+12   17.7376   21.6322   19.8868   20.4722
+13   19.7844   18.5063   16.8429   16.1721
+14   19.8745   16.7949   20.2796   17.992
+15   19.0683   19.7729   17.1879   16.2464
+
+ [*,*,2]
+:       1         2         3         4       :=
+1    15.8369   19.802    18.2267   18.1497
+2    19.9484   21.1704   17.2619   19.537
+3    23.5489   20.105    23.5884   22.4525
+4    23.2057   20.1921   19.4311   21.1451
+5    17.132    19.7779   15.9138   17.0985
+6    19.9778   20.2936   17.3631   17.2706
+7    20.1116   20.2766   20.6325   23.5772
+8    24.0212   20.2209   21.7272   22.9386
+9    21.2305   18.2764   19.9956   17.6441
+10   20.1942   20.8431   19.6293   23.334
+11   23.2629   20.1348   19.8694   22.17
+12   17.6007   18.1885   19.8996   15.9432
+13   20.1432   23.7471   20.4422   21.4466
+14   19.9006   20.3945   18.9855   16.71
+15   21.1483   19.9196   17.9218   21.5592
+
+ [*,*,3]
+:       1         2         3         4       :=
+1    19.9944   20.0154   18.3179   22.295
+2    19.8373   16.59     17.3563   19.6551
+3    21.6737   20.2557   18.8291   22.549
+4    20.6684   20.0254   20.666    17.2438
+5    21.6072   20.0227   19.0193   22.6916
+6    20.1735   24.0364   22.8299   21.8451
+7    20.2343   24.0981   23.0272   22.2183
+8    18.8603   19.8868   16.5525   20.1333
+9    16.0852   16.7516   19.8226   17.2885
+10   20.1712   23.8112   20.8326   20.8047
+11   17.4009   19.7815   15.853    18.1517
+12   17.3636   16.6661   19.8325   19.7666
+13   20.0757   21.2497   22.7698   18.9565
+14   20.217    22.7215   24.0898   21.7257
+15   16.2006   19.9414   17.6335   19.0056
+;
+
+r = 4.22311
+
+distances [*,1,*]
+:    1   2   3   4    :=
+1    0   4   0   4
+2    0   4   0   4
+3    0   4   0   4
+4    0   4   0   4
+5    0   4   0   4
+6    0   4   0   4
+7    0   4   0   4
+8    0   4   0   4
+9    0   4   0   4
+10   0   4   0   4
+11   0   4   0   4
+12   0   4   0   4
+13   0   4   0   4
+14   0   4   0   4
+15   0   4   0   4
+
+ [*,2,*]
+:    1   2   3   4    :=
+1    0   0   4   4
+2    0   0   4   4
+3    0   0   4   4
+4    0   0   4   4
+5    0   0   4   4
+6    0   0   4   4
+7    0   0   4   4
+8    0   0   4   4
+9    0   0   4   4
+10   0   0   4   4
+11   0   0   4   4
+12   0   0   4   4
+13   0   0   4   4
+14   0   0   4   4
+15   0   0   4   4
+
+ [*,3,*]
+:    1   2   3   4    :=
+1    4   0   0   4
+2    4   0   0   4
+3    4   0   0   4
+4    4   0   0   4
+5    4   0   0   4
+6    4   0   0   4
+7    4   0   0   4
+8    4   0   0   4
+9    4   0   0   4
+10   4   0   0   4
+11   4   0   0   4
+12   4   0   0   4
+13   4   0   0   4
+14   4   0   0   4
+15   4   0   0   4
+
+ [*,4,*]
+:    1   2   3   4    :=
+1    4   4   4   0
+2    4   4   4   0
+3    4   4   4   0
+4    4   4   4   0
+5    4   4   4   0
+6    4   4   4   0
+7    4   4   4   0
+8    4   4   4   0
+9    4   4   4   0
+10   4   4   4   0
+11   4   4   4   0
+12   4   4   4   0
+13   4   4   4   0
+14   4   4   4   0
+15   4   4   4   0
+;
+
+Total time elapsed: $151.55.
+_total_solve_time = 151.553
+_ampl_time = 0.014464
+_ampl_elapsed_time = 0.009483
+_ampl_user_time = 0.007232

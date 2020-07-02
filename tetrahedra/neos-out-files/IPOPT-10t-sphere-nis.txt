@@ -1,0 +1,165 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 8350039
+   Password : UmeufNco
+   User     : anedesquerra
+   Solver   : nco:Ipopt:AMPL
+   Start    : 2020-06-30 23:02:13
+   End      : 2020-06-30 23:02:46
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+Load Avg: ( 4.38 , 6.11 , 5.72 )
+Create temp directory /var/lib/condor/execute/dir_28313/neos-28318
+File exists
+You are using the solver ipopt.
+Checking ampl.mod for ipopt_options...
+Checking ampl.com for ipopt_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-5.neos-server.org
+
+Presolve eliminates 0 constraints and 715 variables.
+Adjusted problem:
+706 variables:
+	616 nonlinear variables
+	90 linear variables
+685 constraints; 5380 nonzeros
+	505 nonlinear constraints
+	180 linear constraints
+	150 equality constraints
+	535 inequality constraints
+1 linear objective; 1 nonzero.
+
+Ipopt 3.12.13: max_iter=10000
+acceptable_tol=1e-3
+tol=1e-5
+max_cpu_time=28800
+print_level=1
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+ 
+Ipopt 3.12.13: Solved To Acceptable Level.
+
+suffix ipopt_zU_out OUT;
+suffix ipopt_zL_out OUT;
+solve_result_num = 1
+solve_result = solved
+tolerance = 0.01
+
+card(figures) = 10
+
+coords [*,*,1]
+:       1         2         3         4       :=
+1    18.3587   17.6477   20.6278   16.8271
+2    17.3219   16.741    19.793    19.8658
+3    20.0349   21.8398   19.9618   17.8465
+4    23.7925   20.0083   22.9516   22.6214
+5    18.4802   16.8377   20.7512   19.2969
+6    22.9738   19.4829   21.5922   19.7925
+7    20.2026   19.7771   23.2673   20.0834
+8    22.6968   19.6427   22.3864   19.8054
+9    19.0791   19.5894   19.9518   22.7267
+10   23.4929   19.9824   20.4514   22.2989
+
+ [*,*,2]
+:       1         2         3         4       :=
+1    19.0507   22.98     21.3569   20.6095
+2    22.9061   19.1729   21.3382   20.0004
+3    21.4448   23.6114   20.2151   23.4249
+4    21.4153   20.1301   17.5725   19.0261
+5    18.669    20.6006   20.9714   17.513
+6    18.0342   17.6799   21.0659   20.1226
+7    21.7435   19.8975   19.714    17.7486
+8    17.2912   16.2223   18.808    19.9234
+9    17.0502   19.9342   16.0944   17.7981
+10   19.9396   20.103    22.0034   23.3572
+
+ [*,*,3]
+:       1         2         3         4       :=
+1    19.1215   19.3561   21.4737   22.4718
+2    19.0325   17.7186   16.3057   20.0746
+3    16.8671   19.704    20.6726   19.567
+4    20.4133   20.2467   21.1385   17.4267
+5    19.3879   22.4817   21.7419   23.1291
+6    21.3758   23.2962   23.5894   20.1439
+7    16.4485   19.9714   18.0259   16.6115
+8    20.8824   18.5308   17.1942   20.0392
+9    22.6446   19.9203   18.8598   21.1831
+10   18.2661   20.1764   16.6881   19.9674
+;
+
+r = 4.07047
+
+distances [*,1,*]
+:    1   2   3   4    :=
+1    0   4   0   4
+2    0   4   0   4
+3    0   4   0   4
+4    0   4   0   4
+5    0   4   0   4
+6    0   4   0   4
+7    0   4   0   4
+8    0   4   0   4
+9    0   4   0   4
+10   0   4   0   4
+
+ [*,2,*]
+:    1   2   3   4    :=
+1    0   0   4   4
+2    0   0   4   4
+3    0   0   4   4
+4    0   0   4   4
+5    0   0   4   4
+6    0   0   4   4
+7    0   0   4   4
+8    0   0   4   4
+9    0   0   4   4
+10   0   0   4   4
+
+ [*,3,*]
+:    1   2   3   4    :=
+1    4   0   0   4
+2    4   0   0   4
+3    4   0   0   4
+4    4   0   0   4
+5    4   0   0   4
+6    4   0   0   4
+7    4   0   0   4
+8    4   0   0   4
+9    4   0   0   4
+10   4   0   0   4
+
+ [*,4,*]
+:    1   2   3   4    :=
+1    4   4   4   0
+2    4   4   4   0
+3    4   4   4   0
+4    4   4   4   0
+5    4   4   4   0
+6    4   4   4   0
+7    4   4   4   0
+8    4   4   4   0
+9    4   4   4   0
+10   4   4   4   0
+;
+
+Total time elapsed: $ 23.86.
+_total_solve_time = 23.8635
+_ampl_time = 0.012507
+_ampl_elapsed_time = 0.00749
+_ampl_user_time = 0.006735

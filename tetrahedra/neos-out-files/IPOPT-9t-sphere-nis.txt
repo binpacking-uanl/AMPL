@@ -1,0 +1,158 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 8350028
+   Password : wDRiYKEx
+   User     : anedesquerra
+   Solver   : nco:Ipopt:AMPL
+   Start    : 2020-06-30 22:51:21
+   End      : 2020-06-30 22:51:43
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+Load Avg: ( 3.64 , 3.32 , 3.21 )
+Create temp directory /var/lib/condor/execute/dir_7636/neos-7643
+File exists
+You are using the solver ipopt.
+Checking ampl.mod for ipopt_options...
+Checking ampl.com for ipopt_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-2.neos-server.org
+
+Presolve eliminates 0 constraints and 585 variables.
+Adjusted problem:
+577 variables:
+	505 nonlinear variables
+	72 linear variables
+558 constraints; 4356 nonzeros
+	414 nonlinear constraints
+	144 linear constraints
+	126 equality constraints
+	432 inequality constraints
+1 linear objective; 1 nonzero.
+
+Ipopt 3.12.13: max_iter=10000
+acceptable_tol=1e-3
+tol=1e-5
+max_cpu_time=28800
+print_level=1
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+ 
+Ipopt 3.12.13: Optimal Solution Found
+
+suffix ipopt_zU_out OUT;
+suffix ipopt_zL_out OUT;
+solve_result_num = 0
+solve_result = solved
+tolerance = 0.0001
+
+card(figures) = 9
+
+coords [*,*,1]
+:      1         2         3         4       :=
+1   23.8369   19.8937   22.3254   21.6837
+2   21.6367   22.4885   23.1226   19.3854
+3   19.8996   21.572    23.8033   21.0967
+4   22.3119   21.6807   19.8919   18.7522
+5   19.893    17.955    18.5204   21.6211
+6   16.7917   20.5153   18.279    19.6683
+7   21.5675   19.8969   21.0935   17.9047
+8   19.4413   19.6231   19.2185   22.6768
+9   19.2266   19.4434   21.2817   22.6796
+
+ [*,*,2]
+:      1         2         3         4       :=
+1   19.8176   20.21     19.876    16.7202
+2   22.3764   18.4855   20.9703   20.0493
+3   20.2145   16.6759   19.6448   17.8253
+4   19.8675   16.7171   20.2078   18.0429
+5   20.2109   16.7912   17.9924   16.7066
+6   21.6986   20.535    18.3553   21.9242
+7   16.6756   20.2136   17.8188   16.8311
+8   20.1095   18.4021   22.3687   20.6242
+9   22.3867   20.1118   23.6631   20.6264
+
+ [*,*,3]
+:      1         2         3         4       :=
+1   20.5936   20.0491   16.8907   19.2633
+2   22.6041   22.2367   19.1669   20.2555
+3   20.0528   19.2274   20.7131   23.0291
+4   16.88     19.2626   20.0467   16.8822
+5   20.0521   20.7932   17.02     19.1955
+6   21.3891   22.273    19.7734   18.6188
+7   19.2219   20.0536   23.0256   20.8219
+8   20.3124   16.6997   17.019    18.0175
+9   17.0313   20.3143   20.2168   18.0203
+;
+
+r = 3.8869
+
+distances [*,1,*]
+:   1   2   3   4    :=
+1   0   4   0   4
+2   0   4   0   4
+3   0   4   0   4
+4   0   4   0   4
+5   0   4   0   4
+6   0   4   0   4
+7   0   4   0   4
+8   0   4   0   4
+9   0   4   0   4
+
+ [*,2,*]
+:   1   2   3   4    :=
+1   0   0   4   4
+2   0   0   4   4
+3   0   0   4   4
+4   0   0   4   4
+5   0   0   4   4
+6   0   0   4   4
+7   0   0   4   4
+8   0   0   4   4
+9   0   0   4   4
+
+ [*,3,*]
+:   1   2   3   4    :=
+1   4   0   0   4
+2   4   0   0   4
+3   4   0   0   4
+4   4   0   0   4
+5   4   0   0   4
+6   4   0   0   4
+7   4   0   0   4
+8   4   0   0   4
+9   4   0   0   4
+
+ [*,4,*]
+:   1   2   3   4    :=
+1   4   4   4   0
+2   4   4   4   0
+3   4   4   4   0
+4   4   4   4   0
+5   4   4   4   0
+6   4   4   4   0
+7   4   4   4   0
+8   4   4   4   0
+9   4   4   4   0
+;
+
+Total time elapsed: $ 20.03.
+_total_solve_time = 20.032
+_ampl_time = 0.009764
+_ampl_elapsed_time = 0.004783
+_ampl_user_time = 0.005837

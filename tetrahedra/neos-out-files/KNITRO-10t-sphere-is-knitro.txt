@@ -1,0 +1,244 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 8350682
+   Password : YGJEzofX
+   User     : anedesquerra
+   Solver   : nco:Knitro:AMPL
+   Start    : 2020-07-01 03:51:58
+   End      : 2020-07-01 03:52:18
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+##### This license is only intended for use by nomac. #####
+##### License is valid until Jan 04, 2021 #####
+ro.
+Checking ampl.mod for knitro_options...
+Checking ampl.com for knitro_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-2.neos-server.org
+
+Presolve eliminates 0 constraints and 715 variables.
+Adjusted problem:
+706 variables:
+	616 nonlinear variables
+	90 linear variables
+685 constraints; 5380 nonzeros
+	505 nonlinear constraints
+	180 linear constraints
+	150 equality constraints
+	535 inequality constraints
+1 linear objective; 1 nonzero.
+
+: threads=4
+
+=======================================
+           Academic License
+       (NOT FOR COMMERCIAL USE)
+         Artelys Knitro 12.1.1
+=======================================
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+datacheck:               0
+hessian_no_f:            1
+par_concurrent_evals:    0
+par_numthreads:          4
+The problem is identified as a QCQP.
+Knitro changing algorithm from AUTO to 1.
+Knitro changing bar_initpt from AUTO to 3.
+Knitro changing bar_murule from AUTO to 4.
+Knitro changing bar_penaltycons from AUTO to 0.
+Knitro changing bar_penaltyrule from AUTO to 2.
+Knitro changing bar_switchrule from AUTO to 2.
+Knitro changing linesearch from AUTO to 1.
+Knitro changing linsolver from AUTO to 2.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  linear
+Number of variables:                                706 (         706)
+    bounded below only:                             571 (         571)
+    bounded above only:                               0 (           0)
+    bounded below and above:                          0 (           0)
+    fixed:                                            0 (           0)
+    free:                                           135 (         135)
+Number of constraints:                              685 (         685)
+    linear equalities:                               45 (          45)
+    quadratic equalities:                           105 (         105)
+    gen. nonlinear equalities:                        0 (           0)
+    linear one-sided inequalities:                  135 (         135)
+    quadratic one-sided inequalities:               400 (         400)
+    gen. nonlinear one-sided inequalities:            0 (           0)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                    5380 (        5380)
+Number of nonzeros in Hessian:                     2461 (        2461)
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    4.000080e+00   1.000e+00
+      10    4.167269e+00   4.310e-02   1.993e-01   1.580e+00        0
+      20    4.005899e+00   1.364e-03   1.190e-01   8.214e-02        0
+      30    4.000033e+00   1.640e-03   2.967e-03   1.924e-02        0
+      40    4.000016e+00   7.720e-04   7.759e-02   8.298e-02        0
+      50    4.000015e+00   2.142e-04   6.873e-03   9.148e-03        0
+      60    4.000014e+00   1.179e-04   8.628e-03   6.938e-02        4
+      70    4.000015e+00   7.812e-05   1.279e-02   3.045e-02        8
+      80    4.000014e+00   6.808e-05   2.043e-02   9.722e-02        3
+      90    4.000014e+00   3.343e-05   2.550e-02   2.031e-02        0
+     100    4.000014e+00   2.431e-05   1.872e-02   7.092e-03        3
+     110    4.000014e+00   2.207e-05   1.300e-02   1.204e-02        1
+     120    4.000016e+00   3.044e-07   2.050e-02   5.321e-03        0
+     130    4.000037e+00   1.525e-03   2.062e-05   1.105e-01        0
+     140    4.000038e+00   1.163e-02   2.517e-04   4.255e-01        0
+     150    4.000039e+00   1.021e-02   4.402e-03   3.024e-01        0
+     160    4.000039e+00   1.285e-04   8.978e-03   1.459e+02        0
+     170    4.000035e+00   5.942e-04   9.504e-03   1.387e+04        0
+     176    4.000029e+00   1.429e-08   1.271e-07   1.919e-03        0
+
+EXIT: Locally optimal solution found.
+
+HINT: Knitro spent 0.000004 seconds checking model convexity.
+      To skip the automatic convexity checker for QPs and QCQPs,
+      explicity set the user option convex=0 or convex=1.
+
+Final Statistics
+----------------
+Final objective value               =   4.00002862090733e+00
+Final feasibility error (abs / rel) =   1.43e-08 / 1.43e-08
+Final optimality error  (abs / rel) =   1.27e-07 / 1.27e-07
+# of iterations                     =        176 
+# of CG iterations                  =        401 
+# of function evaluations           =          0
+# of gradient evaluations           =          0
+# of Hessian evaluations            =          0
+Total program time (secs)           =       1.98219 (     7.915 CPU time)
+Time spent in evaluations (secs)    =       0.00000
+
+===============================================================================
+
+Knitro 12.1.1: Locally optimal or satisfactory solution.
+objective 4.000028621; feasibility error 1.43e-08
+176 iterations; 0 function evaluations
+
+suffix feaserror OUT;
+suffix opterror OUT;
+suffix numfcevals OUT;
+suffix numiters OUT;
+solve_result_num = 0
+solve_result = solved
+tolerance = 1e-06
+
+card(figures) = 10
+
+coords [*,*,1]
+:       1         2         3         4       :=
+1    18.4247   19.8046   20        16.4601
+2    20        22.0544   18.07     19.7595
+3    16.3216   20        18.1946   16.8894
+4    18.567    21.0677   17.335    20
+5    20        22.3757   19.3487   18.6006
+6    20        18.7663   21.3371   22.5361
+7    18.3617   20        17.0896   16.2499
+8    20        20.9145   23.6235   22.6072
+9    23.4722   20.6993   20        20.0968
+10   23.2405   20.8582   23.1411   20
+
+ [*,*,2]
+:       1         2         3         4       :=
+1    23.6073   22.7113   20        20.9839
+2    20        23.0498   23.2577   20.762
+3    20.7761   20        23.4384   19.9925
+4    17.7131   20.7215   21.5002   20
+5    20        17.0528   16.2378   17.2942
+6    20        17.4641   20.3894   17.3001
+7    17.5563   20        21.3357   18.6972
+8    20        21.7528   19.4769   23.0324
+9    19.2507   21.501    20        17.5737
+10   18.8446   16.1093   18.4599   20
+
+ [*,*,3]
+:       1         2         3         4       :=
+1    19.2884   22.9344   20        21.5815
+2    20        18.4257   18.7106   16.0806
+3    21.3664   20        19.0416   17.4852
+4    22.9524   23.7868   22.5782   20
+5    20        21.2923   18.8077   22.5924
+6    20        22.8367   23.7498   21.5096
+7    22.71     20        22.397    19.5102
+8    20        16.5227   18.3886   19.9136
+9    18.1608   16.3588   20        16.8213
+10   17.9593   19.6453   21.9395   20
+;
+
+r = 4.00003
+
+distances [*,1,*]
+:    1   2   3   4    :=
+1    0   4   0   4
+2    0   4   0   4
+3    0   4   0   4
+4    0   4   0   4
+5    0   4   0   4
+6    0   4   0   4
+7    0   4   0   4
+8    0   4   0   4
+9    0   4   0   4
+10   0   4   0   4
+
+ [*,2,*]
+:    1   2   3   4    :=
+1    0   0   4   4
+2    0   0   4   4
+3    0   0   4   4
+4    0   0   4   4
+5    0   0   4   4
+6    0   0   4   4
+7    0   0   4   4
+8    0   0   4   4
+9    0   0   4   4
+10   0   0   4   4
+
+ [*,3,*]
+:    1   2   3   4    :=
+1    4   0   0   4
+2    4   0   0   4
+3    4   0   0   4
+4    4   0   0   4
+5    4   0   0   4
+6    4   0   0   4
+7    4   0   0   4
+8    4   0   0   4
+9    4   0   0   4
+10   4   0   0   4
+
+ [*,4,*]
+:    1   2   3   4    :=
+1    4   4   4   0
+2    4   4   4   0
+3    4   4   4   0
+4    4   4   4   0
+5    4   4   4   0
+6    4   4   4   0
+7    4   4   4   0
+8    4   4   4   0
+9    4   4   4   0
+10   4   4   4   0
+;
+
+Total time elapsed: $  7.95.
+_total_solve_time = 7.95194
+_ampl_time = 0.012051
+_ampl_elapsed_time = 0.00603
+_ampl_user_time = 0.003286

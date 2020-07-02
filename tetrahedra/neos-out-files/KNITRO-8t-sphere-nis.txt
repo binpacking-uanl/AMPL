@@ -1,0 +1,295 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 8350656
+   Password : NBqCSAMw
+   User     : anedesquerra
+   Solver   : nco:Knitro:AMPL
+   Start    : 2020-07-01 03:24:56
+   End      : 2020-07-01 03:25:12
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+##### This license is only intended for use by nomac. #####
+##### License is valid until Jan 04, 2021 #####
+ro.
+Checking ampl.mod for knitro_options...
+Checking ampl.com for knitro_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-1.neos-server.org
+
+Presolve eliminates 0 constraints and 468 variables.
+Adjusted problem:
+461 variables:
+	405 nonlinear variables
+	56 linear variables
+444 constraints; 3440 nonzeros
+	332 nonlinear constraints
+	112 linear constraints
+	104 equality constraints
+	340 inequality constraints
+1 linear objective; 1 nonzero.
+
+: threads=4
+
+=======================================
+           Academic License
+       (NOT FOR COMMERCIAL USE)
+         Artelys Knitro 12.1.1
+=======================================
+
+No start point provided -- Knitro computing one.
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+datacheck:               0
+hessian_no_f:            1
+par_concurrent_evals:    0
+par_numthreads:          4
+The problem is identified as a QCQP.
+Knitro changing algorithm from AUTO to 1.
+Knitro changing bar_initpt from AUTO to 3.
+Knitro changing bar_murule from AUTO to 4.
+Knitro changing bar_penaltycons from AUTO to 0.
+Knitro changing bar_penaltyrule from AUTO to 2.
+Knitro changing bar_switchrule from AUTO to 2.
+Knitro changing linesearch from AUTO to 1.
+Knitro changing linsolver from AUTO to 2.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  linear
+Number of variables:                                461 (         461)
+    bounded below only:                             377 (         377)
+    bounded above only:                               0 (           0)
+    bounded below and above:                          0 (           0)
+    fixed:                                            0 (           0)
+    free:                                            84 (          84)
+Number of constraints:                              444 (         444)
+    linear equalities:                               28 (          28)
+    quadratic equalities:                            76 (          76)
+    gen. nonlinear equalities:                        0 (           0)
+    linear one-sided inequalities:                   84 (          84)
+    quadratic one-sided inequalities:               256 (         256)
+    gen. nonlinear one-sided inequalities:            0 (           0)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                    3440 (        3440)
+Number of nonzeros in Hessian:                     1585 (        1585)
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    1.984925e+00   1.056e+03
+      10    2.567902e+01   1.328e+01   5.121e-01   5.192e+00        1
+      20    1.174328e+00   4.735e+00   4.036e-01   5.814e+01        0
+      30    2.451318e+00   1.990e-02   2.374e-04   1.690e-01        0
+      40    2.450106e+00   8.688e-04   4.588e-05   2.773e-04        0
+      50    2.451814e+00   7.140e-01   1.309e+02   9.410e-01        2
+      60    2.489175e+00   6.992e-03   1.227e+02   4.178e-02        0
+      70    8.123938e+00   2.352e-02   6.830e+01   2.608e+00        0
+      80    1.176180e+01   3.330e-02   2.771e+02   3.839e-01        0
+      90    1.411256e+01   5.244e-02   3.424e+02   2.969e+00        0
+     100    1.535817e+01   2.342e-02   1.269e+02   2.020e-01        0
+     110    1.600758e+01   4.520e-01   3.302e+02   1.397e-01        0
+     120    1.656717e+01   2.894e-02   1.606e+02   5.806e-01        0
+     130    2.329215e+01   2.300e-02   6.156e+01   1.031e+00        0
+     140    3.154798e+01   8.869e-02   1.692e+01   9.896e+00        0
+     150    2.895581e+01   1.033e-01   1.941e-01   5.386e+00        0
+     160    2.142680e+01   2.949e-02   5.574e-02   8.360e-01        0
+     170    1.711628e+01   3.952e-02   3.017e-02   8.513e-01        0
+     180    1.077092e+01   1.473e-01   2.893e-02   2.791e+00        0
+     190    7.541123e+00   9.635e-02   3.203e-02   6.485e-01        0
+     200    5.829334e+00   5.182e-03   2.961e-02   1.767e+00        2
+     210    5.438750e+00   3.542e-04   3.926e-02   7.218e-01        1
+     220    5.347913e+00   5.026e-04   5.530e-02   4.105e-01        3
+     230    5.289615e+00   7.745e-04   3.509e-02   6.201e-02        0
+     240    5.147233e+00   1.952e-04   5.803e-03   8.235e-01        3
+     250    5.096408e+00   7.236e-04   2.333e-03   7.632e-01        4
+     260    5.077761e+00   5.916e-05   3.274e-03   6.398e-02        0
+     270    5.035203e+00   2.895e-04   4.228e-03   5.327e-01        2
+     280    5.016164e+00   5.632e-05   1.043e-02   2.740e-01        2
+     290    4.984773e+00   3.238e-02   3.088e-02   1.266e-01        0
+     300    4.962472e+00   6.172e-02   2.175e-02   3.519e-01        0
+     310    4.921587e+00   5.485e-02   3.101e-03   9.183e-01        0
+     320    4.912654e+00   2.313e-03   2.782e-03   1.199e-01        0
+     330    4.906061e+00   4.519e-03   1.714e-03   1.700e-01        0
+     340    4.894560e+00   1.202e-02   4.656e-04   2.286e-01        0
+     350    4.892707e+00   2.948e-04   6.008e-02   7.423e+00        0
+     360    4.747360e+00   2.894e-02   1.539e+00   3.552e-01        0
+     370    4.389317e+00   7.664e-03   5.788e-03   1.131e+00        3
+     380    4.333645e+00   1.308e-03   2.529e-03   4.689e-01        2
+     390    4.270659e+00   4.194e-03   1.733e-03   4.009e-01        0
+     400    4.255580e+00   6.086e-03   2.074e-03   6.225e-02        0
+     410    4.250743e+00   9.496e-04   3.513e-03   1.724e-01        1
+     420    4.242068e+00   1.344e-04   3.914e-03   9.814e-02        2
+     430    4.234270e+00   2.602e-04   9.425e-03   1.742e-01        1
+     440    4.223541e+00   6.795e-04   1.148e-02   4.030e-01        1
+     450    4.218181e+00   2.069e-04   1.845e-03   1.491e-01        3
+     460    4.217404e+00   1.088e-05   9.073e-05   3.293e-01       18
+     470    4.217228e+00   6.696e-06   1.998e-03   2.378e-01       10
+     480    4.217181e+00   2.160e-06   3.829e-05   2.420e-01        3
+     490    4.217120e+00   2.886e-06   6.365e-03   2.442e-01        6
+     500    4.217104e+00   1.632e-05   1.500e-02   1.162e-01        0
+     510    4.217040e+00   3.452e-06   2.536e-02   2.775e-02        0
+     520    4.216966e+00   7.223e-07   3.565e-02   8.742e-02       13
+     530    4.216877e+00   1.356e-05   4.161e-02   1.607e-01        3
+     540    4.216657e+00   3.844e-05   4.871e-02   8.460e-02        0
+     550    4.216271e+00   2.660e-05   5.379e-02   4.073e-02        0
+     560    4.215010e+00   1.277e-04   5.732e-02   1.565e-01        5
+     570    4.210556e+00   3.289e-04   4.055e-02   1.558e-01        2
+     580    4.207464e+00   2.606e-05   1.957e-03   2.145e-01        2
+     590    4.207390e+00   1.305e-04   2.805e-03   1.870e-02        0
+     600    4.207288e+00   2.039e-05   4.539e-03   9.483e-03        0
+     610    4.207273e+00   8.092e-06   7.706e-04   1.759e-02        0
+     620    4.207243e+00   2.011e-06   1.043e-02   9.488e-01       23
+     630    4.206832e+00   5.003e-05   9.026e-03   6.513e-02        0
+     640    4.203943e+00   2.397e-04   1.138e-02   1.203e-01        0
+     650    4.191471e+00   1.325e-03   5.237e+00   1.081e-01        0
+     660    4.173048e+00   1.005e-04   1.491e+00   2.070e-01        1
+     670    4.148461e+00   5.047e-06   8.264e-01   7.393e-02        2
+     680    4.132724e+00   1.314e-04   4.930e-01   2.234e-01        1
+     690    4.109550e+00   4.829e-02   7.891e-02   6.588e-01        0
+     700    6.998433e+00   5.341e-02   5.434e+02   5.056e+00        2
+     710    4.565766e+00   2.245e-01   3.405e-02   1.375e+00        0
+     720    4.019687e+00   2.374e-01   2.850e-02   1.066e+00        0
+     730    4.001068e+00   1.024e-02   4.464e-03   8.830e-02        0
+     740    4.001003e+00   3.788e-04   1.274e-02   4.413e-02        4
+     750    4.000967e+00   1.828e-04   2.157e-02   1.748e-01        0
+     760    4.000844e+00   4.016e-02   1.652e-02   5.074e-01        0
+     770    4.000778e+00   6.391e-03   3.665e-03   3.183e-01        0
+     780    4.000702e+00   1.165e-02   2.732e-03   3.290e+00        0
+     790    4.000667e+00   5.275e-03   7.432e-04   3.830e-02        0
+     800    4.000665e+00   1.875e-05   1.473e-03   1.857e+00        0
+     810    4.000665e+00   8.622e-05   5.813e-07   2.571e-02       10
+
+EXIT: Locally optimal solution found.
+
+HINT: Knitro spent 0.000005 seconds checking model convexity.
+      To skip the automatic convexity checker for QPs and QCQPs,
+      explicity set the user option convex=0 or convex=1.
+
+Final Statistics
+----------------
+Final objective value               =   4.00066546618335e+00
+Final feasibility error (abs / rel) =   8.62e-05 / 8.17e-08
+Final optimality error  (abs / rel) =   5.81e-07 / 5.81e-07
+# of iterations                     =        810 
+# of CG iterations                  =       1434 
+# of function evaluations           =          0
+# of gradient evaluations           =          0
+# of Hessian evaluations            =          0
+Total program time (secs)           =       4.73846 (    18.571 CPU time)
+Time spent in evaluations (secs)    =       0.00000
+
+===============================================================================
+
+Knitro 12.1.1: Locally optimal or satisfactory solution.
+objective 4.000665466; feasibility error 8.62e-05
+810 iterations; 0 function evaluations
+
+suffix feaserror OUT;
+suffix opterror OUT;
+suffix numfcevals OUT;
+suffix numiters OUT;
+solve_result_num = 0
+solve_result = solved
+tolerance = 0.0001
+
+card(figures) = 8
+
+coords [*,*,1]
+:      1         2         3         4       :=
+1   18.1947   16.9711   20.5042   19.9997
+2   20.5077   18.1971   19.9997   22.1634
+3   17.5324   20.001    16.4971   16.5871
+4   19.6164   17.6776   19.9986   16.5408
+5   21.6257   21.3798   20.001    23.9384
+6   23.5352   19.9585   23.214    22.71
+7   18.3356   22.3094   20.4345   20.0025
+8   22.3438   20.0018   18.3741   20.0212
+
+ [*,*,2]
+:      1         2         3         4       :=
+1   21.5547   22.5734   23.8643   20.0006
+2   23.8648   21.5595   20.0006   21.0412
+3   19.8716   20.0033   21.9285   17.9307
+4   16.1014   17.7007   20.0009   18.5825
+5   17.0182   16.7457   20.0012   19.3246
+6   20.9578   19.9583   17.8906   21.6373
+7   18.3588   18.3023   21.748    20.0022
+8   18.3091   19.9992   18.3449   16.0243
+
+ [*,*,3]
+:      1         2         3         4       :=
+1   16.7861   20.4556   19.0952   19.9996
+2   19.0994   16.787    19.9996   16.8003
+3   23.1464   20.0018   19.8758   19.7789
+4   20.8042   17.6924   19.9994   21.4247
+5   17.8855   21.8686   19.9978   20.1946
+6   21.4401   19.9542   18.8927   17.5856
+7   23.2429   22.7902   23.5723   19.9994
+8   22.7664   19.9989   23.2568   20.4457
+;
+
+r = 4.00067
+
+distances [*,1,*]
+:   1   2   3   4    :=
+1   0   4   0   4
+2   0   4   0   4
+3   0   4   0   4
+4   0   4   0   4
+5   0   4   0   4
+6   0   4   0   4
+7   0   4   0   4
+8   0   4   0   4
+
+ [*,2,*]
+:   1   2   3   4    :=
+1   0   0   4   4
+2   0   0   4   4
+3   0   0   4   4
+4   0   0   4   4
+5   0   0   4   4
+6   0   0   4   4
+7   0   0   4   4
+8   0   0   4   4
+
+ [*,3,*]
+:   1   2   3   4    :=
+1   4   0   0   4
+2   4   0   0   4
+3   4   0   0   4
+4   4   0   0   4
+5   4   0   0   4
+6   4   0   0   4
+7   4   0   0   4
+8   4   0   0   4
+
+ [*,4,*]
+:   1   2   3   4    :=
+1   4   4   4   0
+2   4   4   4   0
+3   4   4   4   0
+4   4   4   4   0
+5   4   4   4   0
+6   4   4   4   0
+7   4   4   4   0
+8   4   4   4   0
+;
+
+Total time elapsed: $ 18.62.
+_total_solve_time = 18.6212
+_ampl_time = 0.018014
+_ampl_elapsed_time = 0.007973
+_ampl_user_time = 0.012716

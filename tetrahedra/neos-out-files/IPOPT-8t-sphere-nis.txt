@@ -1,0 +1,151 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 8350022
+   Password : ycsbiMuz
+   User     : anedesquerra
+   Solver   : nco:Ipopt:AMPL
+   Start    : 2020-06-30 22:42:18
+   End      : 2020-06-30 22:42:31
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+Load Avg: ( 4.15 , 4.07 , 4.05 )
+Create temp directory /var/lib/condor/execute/dir_25719/neos-25724
+File exists
+You are using the solver ipopt.
+Checking ampl.mod for ipopt_options...
+Checking ampl.com for ipopt_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-5.neos-server.org
+
+Presolve eliminates 0 constraints and 468 variables.
+Adjusted problem:
+461 variables:
+	405 nonlinear variables
+	56 linear variables
+444 constraints; 3440 nonzeros
+	332 nonlinear constraints
+	112 linear constraints
+	104 equality constraints
+	340 inequality constraints
+1 linear objective; 1 nonzero.
+
+Ipopt 3.12.13: max_iter=10000
+acceptable_tol=1e-3
+tol=1e-5
+max_cpu_time=28800
+print_level=1
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+ 
+Ipopt 3.12.13: Solved To Acceptable Level.
+
+suffix ipopt_zU_out OUT;
+suffix ipopt_zL_out OUT;
+solve_result_num = 1
+solve_result = solved
+tolerance = 0.1
+
+card(figures) = 8
+
+coords [*,*,1]
+:      1         2         3         4       :=
+1   17.9918   20.5431   21.7938   19.3008
+2   22.5421   23.9285   20.0396   22.7249
+3   20.4609   16.9317   17.1274   17.7544
+4   20.7897   21.2976   24.2037   20.8248
+5   21.8293   20.7823   19.4464   23.3057
+6   18.4856   17.5483   20.8558   17.2553
+7   19.433    16.4301   19.592    17.0002
+8   22.4981   20.6843   20.2428   18.5231
+
+ [*,*,2]
+:      1         2         3         4       :=
+1   23.7854   21.9244   23.2311   20.1111
+2   21.4258   17.6941   18.3203   19.0162
+3   20.6554   22.331    19.307    18.6322
+4   21.3128   22.76     20.6222   18.8277
+5   20.0433   16.345    17.8514   16.8782
+6   23.2123   19.4932   21.2425   22.5138
+7   17.2377   19.7709   19.6345   16.5891
+8   18.8225   19.4017   15.9257   19.2409
+
+ [*,*,3]
+:      1         2         3         4       :=
+1   18.4254   20.8805   17.3128   17.5386
+2   19.9623   20.353    19.6566   16.7748
+3   21.593    22.4519   19.8409   23.7334
+4   20.2925   16.5982   18.3259   17.1583
+5   21.516    22.6234   19.1671   19.5659
+6   18.9099   20.0456   21.4598   22.6513
+7   16.4057   17.1578   19.6041   19.5138
+8   23.6393   20.1215   22.051    23.4836
+;
+
+r = 4.57068
+
+distances [*,1,*]
+:   1   2   3   4    :=
+1   0   4   0   4
+2   0   4   0   4
+3   0   4   0   4
+4   0   4   0   4
+5   0   4   0   4
+6   0   4   0   4
+7   0   4   0   4
+8   0   4   0   4
+
+ [*,2,*]
+:   1   2   3   4    :=
+1   0   0   4   4
+2   0   0   4   4
+3   0   0   4   4
+4   0   0   4   4
+5   0   0   4   4
+6   0   0   4   4
+7   0   0   4   4
+8   0   0   4   4
+
+ [*,3,*]
+:   1   2   3   4    :=
+1   4   0   0   4
+2   4   0   0   4
+3   4   0   0   4
+4   4   0   0   4
+5   4   0   0   4
+6   4   0   0   4
+7   4   0   0   4
+8   4   0   0   4
+
+ [*,4,*]
+:   1   2   3   4    :=
+1   4   4   4   0
+2   4   4   4   0
+3   4   4   4   0
+4   4   4   4   0
+5   4   4   4   0
+6   4   4   4   0
+7   4   4   4   0
+8   4   4   4   0
+;
+
+Total time elapsed: $ 10.87.
+_total_solve_time = 10.8724
+_ampl_time = 0.00991
+_ampl_elapsed_time = 0.005308
+_ampl_user_time = 0.00495

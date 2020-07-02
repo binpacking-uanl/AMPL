@@ -1,0 +1,252 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 8350677
+   Password : bCUPMYwc
+   User     : anedesquerra
+   Solver   : nco:Knitro:AMPL
+   Start    : 2020-07-01 03:43:30
+   End      : 2020-07-01 03:43:47
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+##### This license is only intended for use by nomac. #####
+##### License is valid until Jan 04, 2021 #####
+ro.
+Checking ampl.mod for knitro_options...
+Checking ampl.com for knitro_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-4.neos-server.org
+
+Presolve eliminates 0 constraints and 715 variables.
+Adjusted problem:
+706 variables:
+	616 nonlinear variables
+	90 linear variables
+685 constraints; 5380 nonzeros
+	505 nonlinear constraints
+	180 linear constraints
+	150 equality constraints
+	535 inequality constraints
+1 linear objective; 1 nonzero.
+
+: threads=4
+
+=======================================
+           Academic License
+       (NOT FOR COMMERCIAL USE)
+         Artelys Knitro 12.1.1
+=======================================
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+datacheck:               0
+hessian_no_f:            1
+par_concurrent_evals:    0
+par_numthreads:          4
+The problem is identified as a QCQP.
+Knitro changing algorithm from AUTO to 1.
+Knitro changing bar_initpt from AUTO to 3.
+Knitro changing bar_murule from AUTO to 4.
+Knitro changing bar_penaltycons from AUTO to 0.
+Knitro changing bar_penaltyrule from AUTO to 2.
+Knitro changing bar_switchrule from AUTO to 2.
+Knitro changing linesearch from AUTO to 1.
+Knitro changing linsolver from AUTO to 2.
+
+Problem Characteristics                                 (   Presolved)
+-----------------------
+Objective goal:  Minimize
+Objective type:  linear
+Number of variables:                                706 (         706)
+    bounded below only:                             571 (         571)
+    bounded above only:                               0 (           0)
+    bounded below and above:                          0 (           0)
+    fixed:                                            0 (           0)
+    free:                                           135 (         135)
+Number of constraints:                              685 (         685)
+    linear equalities:                               45 (          45)
+    quadratic equalities:                           105 (         105)
+    gen. nonlinear equalities:                        0 (           0)
+    linear one-sided inequalities:                  135 (         135)
+    quadratic one-sided inequalities:               400 (         400)
+    gen. nonlinear one-sided inequalities:            0 (           0)
+    linear two-sided inequalities:                    0 (           0)
+    quadratic two-sided inequalities:                 0 (           0)
+    gen. nonlinear two-sided inequalities:            0 (           0)
+Number of nonzeros in Jacobian:                    5380 (        5380)
+Number of nonzeros in Hessian:                     2461 (        2461)
+
+  Iter      Objective      FeasError   OptError    ||Step||    CGits 
+--------  --------------  ----------  ----------  ----------  -------
+       0    4.000740e+00   1.000e+00
+      10    4.769218e+00   2.209e-01   8.309e-02   2.967e+00        0
+      20    4.008681e+00   1.013e-01   1.505e-02   2.566e+00        1
+      30    4.000134e+00   7.996e-05   4.835e-03   2.160e-02        0
+      40    4.000119e+00   3.817e-04   1.227e-02   3.103e-02        0
+      50    4.000091e+00   3.437e-03   1.152e-02   1.132e+00        2
+      60    4.000086e+00   9.456e-04   2.116e-03   1.459e-01        3
+      70    4.000116e+00   7.490e-04   7.035e-04   4.881e-02        1
+      80    4.000113e+00   4.017e-04   1.779e-03   8.917e-02        1
+      90    4.000532e+00   1.156e-07   2.971e-02   1.035e-03        0
+     100    4.000085e+00   1.813e-04   8.031e-04   3.445e-02        0
+     110    4.000080e+00   1.586e-02   3.050e-03   8.080e-02        0
+     120    4.000077e+00   4.368e-03   1.712e-04   2.346e-01        0
+     130    4.000104e+00   3.602e-02   4.140e-02   9.304e-01        8
+     140    4.000075e+00   1.195e-02   1.809e-02   1.055e-01        0
+     150    4.000100e+00   2.607e-02   1.163e-02   3.176e-01        0
+     160    4.000083e+00   1.854e-02   5.603e-03   7.459e+00        0
+     170    4.000079e+00   1.140e-03   2.902e-05   1.847e-01        0
+     180    4.000075e+00   2.215e-04   2.752e-04   2.794e-02        0
+     190    4.000075e+00   9.076e-05   6.943e-05   2.953e-02        0
+     200    4.000077e+00   6.594e-05   4.056e-04   6.967e-03        0
+     210    4.000150e+00   1.226e-02   8.775e-03   1.282e+00        4
+     220    4.000085e+00   9.955e-03   3.865e-04   3.235e-03        0
+     230    4.000086e+00   9.859e-04   2.907e-04   1.092e+01        0
+     240    4.000086e+00   4.274e-03   4.826e-03   6.186e+02        0
+     250    4.000085e+00   2.392e-04   5.846e-04   1.960e+04        0
+     255    4.000084e+00   2.650e-07   5.478e-08   2.205e-03        0
+
+EXIT: Locally optimal solution found.
+
+HINT: Knitro spent 0.000007 seconds checking model convexity.
+      To skip the automatic convexity checker for QPs and QCQPs,
+      explicity set the user option convex=0 or convex=1.
+
+Final Statistics
+----------------
+Final objective value               =   4.00008419296069e+00
+Final feasibility error (abs / rel) =   2.65e-07 / 2.65e-07
+Final optimality error  (abs / rel) =   5.48e-08 / 5.48e-08
+# of iterations                     =        255 
+# of CG iterations                  =        170 
+# of function evaluations           =          0
+# of gradient evaluations           =          0
+# of Hessian evaluations            =          0
+Total program time (secs)           =       3.44113 (    13.733 CPU time)
+Time spent in evaluations (secs)    =       0.00000
+
+===============================================================================
+
+Knitro 12.1.1: Locally optimal or satisfactory solution.
+objective 4.000084193; feasibility error 2.65e-07
+255 iterations; 0 function evaluations
+
+suffix feaserror OUT;
+suffix opterror OUT;
+suffix numfcevals OUT;
+suffix numiters OUT;
+solve_result_num = 0
+solve_result = solved
+tolerance = 1e-05
+
+card(figures) = 10
+
+coords [*,*,1]
+:       1         2         3         4       :=
+1    18.1867   17.7242   20.0003   16.028
+2    20.0001   22.4361   18.4782   20.4985
+3    16.0212   19.9999   18.1148   18.3668
+4    17.7522   18.2762   16.0346   20.0001
+5    19.9999   20.9718   17.689    17.7975
+6    20.0001   17.8085   21.5069   20.9733
+7    17.7408   19.9999   16.0312   17.6093
+8    20.0003   19.3851   22.9113   21.8637
+9    22.5702   19.3809   20        18.907
+10   23.4493   21.6112   23.3372   20.0001
+
+ [*,*,2]
+:       1         2         3         4       :=
+1    23.3392   22.106    20.0003   20.0645
+2    20        23.1032   23.5555   21.3965
+3    19.8949   20        22.8935   19.2134
+4    17.176    20.7007   20.4681   20.0002
+5    20        16.147    17.6048   17.1592
+6    20.0002   17.1723   17.96     16.1444
+7    17.1727   20        20.4594   17.7211
+8    20.0001   20.0249   18.8369   22.6927
+9    18.1349   20.0107   19.9999   16.6329
+10   19.3355   16.3388   19.2804   19.9999
+
+ [*,*,3]
+:       1         2         3         4       :=
+1    18.7502   22.5271   20.0001   19.5347
+2    19.9999   19.3399   18.9788   16.2849
+3    19.6018   19.9999   17.9814   16.4342
+4    21.7237   23.5409   20.2362   20.0001
+5    20        19.5413   17.7812   21.7548
+6    20.0002   21.7889   23.0933   19.5692
+7    21.7035   19.9999   20.1953   17.7435
+8    20.0002   16.0479   17.5157   17.703
+9    17.5678   16.0481   19.9999   18.1376
+10   18.0866   19.9948   22.0847   20
+;
+
+r = 4.00008
+
+distances [*,1,*]
+:    1   2   3   4    :=
+1    0   4   0   4
+2    0   4   0   4
+3    0   4   0   4
+4    0   4   0   4
+5    0   4   0   4
+6    0   4   0   4
+7    0   4   0   4
+8    0   4   0   4
+9    0   4   0   4
+10   0   4   0   4
+
+ [*,2,*]
+:    1   2   3   4    :=
+1    0   0   4   4
+2    0   0   4   4
+3    0   0   4   4
+4    0   0   4   4
+5    0   0   4   4
+6    0   0   4   4
+7    0   0   4   4
+8    0   0   4   4
+9    0   0   4   4
+10   0   0   4   4
+
+ [*,3,*]
+:    1   2   3   4    :=
+1    4   0   0   4
+2    4   0   0   4
+3    4   0   0   4
+4    4   0   0   4
+5    4   0   0   4
+6    4   0   0   4
+7    4   0   0   4
+8    4   0   0   4
+9    4   0   0   4
+10   4   0   0   4
+
+ [*,4,*]
+:    1   2   3   4    :=
+1    4   4   4   0
+2    4   4   4   0
+3    4   4   4   0
+4    4   4   4   0
+5    4   4   4   0
+6    4   4   4   0
+7    4   4   4   0
+8    4   4   4   0
+9    4   4   4   0
+10   4   4   4   0
+;
+
+Total time elapsed: $ 13.78.
+_total_solve_time = 13.7779
+_ampl_time = 0.011269
+_ampl_elapsed_time = 0.005954
+_ampl_user_time = 0.004098

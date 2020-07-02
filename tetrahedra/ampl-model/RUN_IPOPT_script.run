@@ -1,0 +1,20 @@
+option ipopt_options 'max_iter=1000000 acceptable_tol=1e-4 tol=1e-6 max_cpu_time=28800 print_level=1';
+
+
+solve;
+
+# Status info
+display solve_result_num, solve_result,tolerance;
+
+# Data variables
+display card(figures), coords, r;
+
+display distances;
+ 
+# Time stats
+#display _ampl_time, _total_solve_time, _ampl_elapsed_time, _ampl_user_time;   
+
+printf "Total time elapsed: $%6.2f.\n", _total_solve_time;
+display _total_solve_time, _ampl_time, _ampl_elapsed_time, _ampl_user_time;   
+
+quit;

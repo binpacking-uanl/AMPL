@@ -1,0 +1,19 @@
+#option lgo_options 'con_tol=-1e3 fi_tol=-1e5 g_target=-1e10 irngs=0 kt_tol=1e-8 l_target=-1e10 lbound =-1e4 opmode=3 outlev=3 timelim=28800 timing=3 ubound=1e2';
+
+solve;
+
+# Status info
+display solve_result_num, solve_result,tolerance;
+
+# Data variables
+display card(figures), coords, r;
+
+display distances;
+ 
+# Time stats
+#display _ampl_time, _total_solve_time, _ampl_elapsed_time, _ampl_user_time;   
+
+printf "Total time elapsed: $%6.2f.\n", _total_solve_time;
+display _total_solve_time, _ampl_time, _ampl_elapsed_time, _ampl_user_time;   
+
+quit;

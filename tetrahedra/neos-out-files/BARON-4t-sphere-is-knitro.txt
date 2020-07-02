@@ -1,0 +1,107 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   User     : anedesquerra
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+Job 8351125 has finished.
+Create temp directory /var/lib/condor/execute/dir_31905/neos-31912
+File exists
+You are using the solver baron.
+Checking ampl.mod for baron_options...
+Checking ampl.com for baron_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-2.neos-server.org
+
+Presolve eliminates 0 constraints and 130 variables.
+Adjusted problem:
+127 variables:
+	115 nonlinear variables
+	12 linear variables
+118 constraints; 856 nonzeros
+	94 nonlinear constraints
+	24 linear constraints
+	36 equality constraints
+	82 inequality constraints
+1 linear objective; 1 nonzero.
+
+BARON 19.12.7 (2019.12.07): epsa =1e-3
+prfreq=50
+filter 
+maxtime=3600
+maxiter=-1
+threads=4
+BARON 19.12.7 (2019.12.07): 309337 iterations, CPU time limit reached.
+Objective 3.464101734
+solve_result_num = 402
+solve_result = limit
+tolerance = 0.0001
+
+card(figures) = 4
+
+coords [*,*,1]
+:      1         2         3         4       :=
+1   20.9141   21.1547   18.8453   17.7811
+2   17.317    21.1547   18.8453   18.2615
+3   22.1566   21.1547   18.9934   18.8453
+4   22.6815   18.8453   21.7421   21.1547
+
+ [*,*,2]
+:      1         2         3         4       :=
+1   21.861    21.1547   18.8453   22.6285
+2   22.1169   21.1547   18.8453   18.9371
+3   17.3368   21.1547   18.2141   18.8453
+4   17.88     18.8453   21.0586   21.1547
+
+ [*,*,3]
+:      1         2         3         4       :=
+1   17.2249   21.1547   18.8453   19.5904
+2   20.5661   21.1547   18.8453   22.8014
+3   20.5066   21.1547   22.7924   18.8453
+4   19.4385   18.8453   17.1992   21.1547
+;
+
+r = 3.4641
+
+distances [1,*,*]
+:   1   2   3   4    :=
+1   0   4   0   4
+2   0   0   4   4
+3   4   0   0   4
+4   4   4   4   0
+
+ [2,*,*]
+:   1   2   3   4    :=
+1   0   4   0   4
+2   0   0   4   4
+3   4   0   0   4
+4   4   4   4   0
+
+ [3,*,*]
+:   1   2   3   4    :=
+1   0   4   0   4
+2   0   0   4   4
+3   4   0   0   4
+4   4   4   4   0
+
+ [4,*,*]
+:   1   2   3   4    :=
+1   0   4   0   4
+2   0   0   4   4
+3   4   0   0   4
+4   4   4   4   0
+;
+
+Total time elapsed: $3599.55.
+_total_solve_time = 3599.55
+_ampl_time = 0.007884
+_ampl_elapsed_time = 0.002414
+_ampl_user_time = 0.001971

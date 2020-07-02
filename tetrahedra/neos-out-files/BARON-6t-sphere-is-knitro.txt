@@ -1,0 +1,121 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   User     : anedesquerra
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+Job 8351802 has finished.
+Create temp directory /var/lib/condor/execute/dir_78769/neos-78776
+File exists
+You are using the solver baron.
+Checking ampl.mod for baron_options...
+Checking ampl.com for baron_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-6.neos-server.org
+
+Presolve eliminates 0 constraints and 273 variables.
+Adjusted problem:
+268 variables:
+	238 nonlinear variables
+	30 linear variables
+255 constraints; 1932 nonzeros
+	195 nonlinear constraints
+	60 linear constraints
+	66 equality constraints
+	189 inequality constraints
+1 linear objective; 1 nonzero.
+
+BARON 19.12.7 (2019.12.07): epsa =1e-3
+prfreq=50
+filter 
+maxtime=3600
+maxiter=-1
+threads=4
+BARON 19.12.7 (2019.12.07): 261320 iterations, CPU time limit reached.
+Objective 3.698467645
+solve_result_num = 402
+solve_result = limit
+tolerance = 0.0001
+
+card(figures) = 6
+
+coords [*,*,1]
+:      1         2         3         4       :=
+1   18.6582   19.049    20.9448   16.9666
+2   20.0247   21.288    22.7487   18.964
+3   18.6641   18.6582   16.9666   20.9448
+4   19.8927   21.0791   18.6334   22.4525
+5   19.8907   18.6314   19.5713   22.4505
+6   18.964    21.288    22.7487   21.9757
+
+ [*,*,2]
+:      1         2         3         4       :=
+1   19.0348   18.2239   21.3675   21.4299
+2   22.5806   21.2623   19.6581   18.9411
+3   22.9975   19.0348   21.4299   21.3675
+4   20.4449   20.7542   17.7855   17.7737
+5   20.4429   17.7835   16.5798   17.7716
+6   18.9411   21.2623   19.6581   17.3271
+
+ [*,*,3]
+:      1         2         3         4       :=
+1   18.839    22.7364   21.1477   21.5596
+2   17.3507   20.9097   17.5492   18.627
+3   18.2945   18.839    21.5596   21.1477
+4   19.6487   23.4562   22.3583   21.1692
+5   19.6468   22.3563   18.6593   21.1673
+6   18.627    20.9097   17.5492   20.7065
+;
+
+r = 3.69847
+
+distances [*,1,*]
+:   1   2   3   4    :=
+1   0   4   0   4
+2   0   4   0   4
+3   0   4   0   4
+4   0   4   0   4
+5   0   4   0   4
+6   0   4   0   4
+
+ [*,2,*]
+:   1   2   3   4    :=
+1   0   0   4   4
+2   0   0   4   4
+3   0   0   4   4
+4   0   0   4   4
+5   0   0   4   4
+6   0   0   4   4
+
+ [*,3,*]
+:   1   2   3   4    :=
+1   4   0   0   4
+2   4   0   0   4
+3   4   0   0   4
+4   4   0   0   4
+5   4   0   0   4
+6   4   0   0   4
+
+ [*,4,*]
+:   1   2   3   4    :=
+1   4   4   4   0
+2   4   4   4   0
+3   4   4   4   0
+4   4   4   4   0
+5   4   4   4   0
+6   4   4   4   0
+;
+
+Total time elapsed: $3591.37.
+_total_solve_time = 3591.37
+_ampl_time = 0.015902
+_ampl_elapsed_time = 0.007269
+_ampl_user_time = 0.006361
